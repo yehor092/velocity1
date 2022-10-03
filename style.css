@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* common styles */
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+/* ---------- header starts ----------- */
+.header{
+	background-color: #FFFFFF;
+
+}
+.logo a {
+	font-size: 25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color:  #69B9FF;
+}
+.menu a{
+	line-height: 20px;
+	font-size: 16px;
+	color: #676770;
+	text-transform: capitalize;
+	transition: all 0.5s ;
+	margin-left:40px ;
+
+}
+.menu a:hover {
+	color:  #0082F3;
+}
+
+.container-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu ul {
+	display: flex;
+}
+/* ------- header ends ---------- */
+
+/* ---------- banner starts ----------- */
+.banner{
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+
+	background-size: cover;
+	padding-top: 184px;
+	padding-bottom: 199px;
+	text-align: center;
+}
+.banner-text h1 {
+	font-size: 59px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 107px;
+}
+.blue-btn{
+	font-size: 16px;
+    line-height: 21px;
+	text-align: center;
+	letter-spacing: 2px;
+    text-transform: uppercase;
+	color: #FFFFFF;
+	background: #69B9FF;
+    border-radius: 4px;
+	padding: 11px 30px 13px 30px;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+.white-btn{
+	font-size: 16px;
+    line-height: 21px;
+	text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+    border-radius: 4px;
+	padding: 10px 31px 12px 31px;
+	display: inline-block;
+}
+
+
+
+/* ------- banner ends ---------- */
+
+/*  -------- what we do section start --------*/
+h2{
+	font-size: 30px;
+    line-height: 36px;
+	text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+	color: #676770;
+	margin: 17px;
+}
+.projects{
+	background-color: #FFFFFF;
+	padding-top: 77px;
+	padding-bottom: 80px;
+}
+.text{
+	font-size: 17px;
+    line-height: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #8E8E9C;
+	margin-bottom: 62px;
+}
+.card-image{
+	height: 94px;
+	width: 94px;
+	margin-bottom: 19px;
+	 
+}
+.card-title{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	color: #676770;
+	margin-bottom: 14px;
+	
+}
+.card-text{
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	color: #6A859C;
+}
+.card{
+	background: #FFFFFF;
+	border: 1px solid #DCEBF7;
+	border-radius: 5px;
+	padding: 36px 16px 23px ;
+	text-align: center;
+
+}
+.cards-section{
+	display: flex;
+	gap: 20px;
+}
+
+
+
+/*  -------- what we do section end --------*/
+
+/* ------------------servies start----------------- */
+.services{
+	background-color:  #192024;
+	padding: 80px 0 ;
+
+}
+.services .title {
+	color: #FFFFFF;
+}
+.servises .text{
+	color: #E8E8E8;;
+}
+.section-title{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 23px;
+}
+.section-text{
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 17px;
+}
+.services-box img{
+	margin-bottom:20px ;
+}
+.services-section{
+	display: flex;
+}
+.services-box{
+	text-align: center;
+}
+
+/* ------------------servies end----------------- */
+
+/* ---------tabs starts ---------*/
+.tabs{
+	background-color: #FFFFFF;
+	padding: 77px 90px;
+}
+.tab-button{
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #92A0AD;
+	border-radius: 4px;
+	padding: 1px 30px;
+}
+.image-title{
+	font-size: 31px;
+	line-height: 36px;
+	text-align: center;
+	color: #676770;
+	margin-bottom: 14px;
+}
+.image-text{
+	font-size: 13px;
+	line-height: 25px;
+	text-align: center;
+	color: #6A859C;
+}
+.img{
+	margin-bottom: 16px;
+}
+
+/* ---------tabs end ---------*/
+
+
+
+
+
